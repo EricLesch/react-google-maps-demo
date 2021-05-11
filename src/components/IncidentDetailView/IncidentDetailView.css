@@ -1,0 +1,8 @@
+.incidentDetailView {
+    background: white;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+}
+
+.incidentDetailList th {
+    font-weight: 500;
+}

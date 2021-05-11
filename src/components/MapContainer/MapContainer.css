@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.mapContainer {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.sidebar {
+  min-width: 200px;
+  max-width: 300px;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  color: black;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.sectionHeader {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  padding-left: 17px;
+}
