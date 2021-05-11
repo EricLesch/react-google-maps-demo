@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Google Maps API demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project utilizes San Francisco crime data pulled from Open Socrata - [San Francisco Police Reports: 2018 to Present](https://dev.socrata.com/foundry/data.sfgov.org/wg3w-h783).
+
+You can see a heatmap of crime data on top of San Francisco and filter by different crime categories and time of day. Additionally, you can click on crime markers and see
+more information in an info window on the left side of the app.
 
 ## API Keys
 
@@ -46,7 +49,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 * Add Jest Tests
 * Remove soda-js library as it is unnecessary and calling it is convoluted.
-* Add history for selected incidents so use can go back and forwards through their history.
-
-
-
+* Add history for selected incidents so use can go back and forwards through their history. 
+* It would be interesting to see crime density relative to population density
