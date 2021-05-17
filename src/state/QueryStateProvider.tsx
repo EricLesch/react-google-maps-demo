@@ -51,7 +51,7 @@ const queryStateReducer = (state: any, action: any) => {
         case QUERY_STATE_ACTIONS.UPDATE_INCIDENT_HOUR:
             return {...state, incidentHour: payload, loadingError: null};
         case QUERY_STATE_ACTIONS.UPDATE_INCIDENTS:
-            return {...state, incidents: payload, loadingError: null};
+            return {...state, incidents: payload, loadingError: null, selectedIncident: null};
         case QUERY_STATE_ACTIONS.UPDATE_LIMIT:
             return {...state, limit: payload, loadingError: null};
         case QUERY_STATE_ACTIONS.SET_ERROR:
