@@ -55,7 +55,7 @@ function IncidentDetailView() {
         ];
 
         html = <div className="mt20 incidentDetailView ">
-            <h2 className="sectionHeader mv0 pv15">
+            <h2 className="sectionHeader mv0 pl15 pt15 pb5">
                 Incident Details
             </h2>
             <div className="incidentDetailList mb20">

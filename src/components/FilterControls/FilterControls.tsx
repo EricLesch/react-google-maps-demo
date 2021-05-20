@@ -37,12 +37,12 @@ function FilterControls() {
         </Alert> : <></>;
 
     return <div className="filterControls">
-        <h2 className="sectionHeader pv15 mv0">
+        <h2 className="sectionHeader pl15 pt15 mv0">
            Incident Filters
         </h2>
         {errorMessage}
-        <div>
-            <FormControl variant="filled" className="width100">
+        <div className="pa15">
+            <FormControl className="width100 mv10">
                 <InputLabel >Incident Category</InputLabel>
                 <Select
                     native
@@ -55,9 +55,7 @@ function FilterControls() {
                     {incidentCategoryOptions}
                 </Select>
             </FormControl>
-        </div>
-        <div>
-            <FormControl variant="filled" className="width100">
+            <FormControl className="width100 mv10">
                 <InputLabel>Incident Hour</InputLabel>
                 <Select
                     native
@@ -70,7 +68,7 @@ function FilterControls() {
                     {incidentHourOptions}
                 </Select>
             </FormControl>
-            <FormControl variant="filled" className="width100">
+            <FormControl className="width100 mv10">
                 <TextField
                     value={limit}
                     onChange={(event) => setLimit(event.target.value)}
@@ -80,7 +78,6 @@ function FilterControls() {
                     InputLabelProps={{
                         shrink: true,
                     }}
-                    variant="filled"
                 />
             </FormControl>
         </div>
