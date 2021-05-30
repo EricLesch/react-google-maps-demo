@@ -1,6 +1,6 @@
 # Google Maps API demo
 
-![Image of API UI](maps-demo-screenshot.png "Image of App UI")
+![Image of API UI](gif-demo.gif "Image of App UI")
 
 This project utilizes San Francisco crime data pulled from Open Socrata - [San Francisco Police Reports: 2018 to Present](https://dev.socrata.com/foundry/data.sfgov.org/wg3w-h783).
 
